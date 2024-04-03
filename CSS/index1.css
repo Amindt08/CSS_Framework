@@ -1,0 +1,148 @@
+body{
+    background-color: #e99393;
+}
+.container-fluid {
+    background-color: #fffd9d;
+    margin-top: -10px;
+}
+.navbar{
+    background: transparent;
+    transition: all ease .45s;
+}
+.navbar-brand{
+    color: #6b0124;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar-brand:hover{
+    color: #6b0124;
+}
+.nav-link{
+    color: #6b0124;
+    margin: 0 20px;
+    transition: all ease .50s;
+}
+.nav-link:hover{
+    color: #fffd9d;
+    background-color: #e99393;
+    padding-left: 10px;
+    border-radius: 35px;
+}
+img{
+    border: 5px solid #fffd9d;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 110px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    margin-left: 1px;
+}
+h1{
+    color: #fffd9d;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow:  5px 0px 0 #6b0124,
+                  5px 0px 0 #6b0124;
+}
+.welcome{
+    color: #fffd9d;
+}
+.btn{
+    display: inline-block;
+    color: #6b0124;
+    background-color: #fffd9d;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: #fffd9d;
+    background-color: #6b0124;
+}
+.about-us{
+    margin: 300px;
+}
+#about-us{
+    color: #fffd9d;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow:  5px 0px 0 #6b0124,
+                  5px 0px 0 #6b0124;  
+}
+.carousel-inner h5, p{
+    color: #6b0124;
+}
+#catalogue{
+    color: #fffd9d;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow:  5px 0px 0 #6b0124,
+                  5px 0px 0 #6b0124;
+}
+.foto_catalogue{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fffd9d;
+}
+.card h5, p{
+    color: #6b0124;
+}
+.btn1{
+    display: inline-block;
+    color: #fffd9d;
+    background-color: #e99393;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+    border: none;
+    padding: 10px;
+}
+.btn1:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: #fffd9d;
+    background-color: #6b0124;
+    padding: 10px;
+
+}
+#contack{
+    color: #fffd9d;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow:  5px 0px 0 #6b0124,
+                  5px 0px 0 #6b0124;
+}
+.contack{
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.sosmed a{
+    color: #6b0124;
+    transition: all 0.6s ease-in;
+    font-size: 50px;
+    padding: 40px;
+}
+.sosmed a:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: #fffd9d;
+    padding: 10px;
+
+}
+@media (max-width: 1850px){
+    home{
+        padding: 0 5%;
+        transition: .2s;
+    }
+}

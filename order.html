@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>maestr_beads page</title>
+    <link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/index1.css" rel="stylesheet">
+    <link href="CSS/form_order.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">maestr_beads</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#catalogue">Catalogue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contack">Contack</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <img src="Image/a66eb3fa461cfdcc92f79ae949aa0dc0.jpg" alt="" width="40px" height="40px">
+          </span>
+        </div>
+      </div>
+    </nav>
+    <section class="order">
+        <h2 class="text-center">Order Form</h2>
+        <div class="formorder">
+            <form action="/submit_order" method="post">
+                <label for="product">Nama</label><br>
+                    <input type="text" id="nama" name="nama" value=""><br>
+                <label for="product">Kode Produk</label><br>
+                    <input type="text" id="product" name="product" value=""><br>
+                <label for="quantity">Jumlah:</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"><br>
+                <label for="customization">Note:</label><br>
+                    <textarea id="customization" name="customization" rows="4" cols="50"></textarea><br>
+                <label for="color">Color:</label><br>
+                    <select id="color" name="color">
+                        <option value="red">Cincin</option>
+                        <option value="green">Gelang</option>
+                        <option value="blue">Phone Strap</option>
+                    </select><br>
+                <label for="shipping">Alamat:</label><br>
+                    <textarea id="shipping" name="shipping" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit Order">
+            </form> 
+        </div>
+    </section>
+</body>
+</html>
